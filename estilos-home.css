@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+.fundo-home{
+    background-image: url('../images/fundo-home.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/fundo-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:10px;
+}
+
+.logo-burguer{
+    color: white;
+    font-family: 'Euphoria Script';
+    width: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav{
+    display: block;
+}
+
+.menu-navegacao{
+    list-style: none;
+    display: flex;
+    padding-left: 1180px;
+}
+
+.menu-navegacao a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+}
+
+.botao-reservar{
+    background-color: #A51919;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulo-home{
+    color:white;
+    font-family: 'Euphoria Script';
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitulo-home{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lanches{
+    border-radius: 50%;
+    width: 198px;
+    height: 186px;
+    border: 10px solid #A51919;
+    margin-left: 90px;
+    background-size: cover;
+}
+
+.menu-lanches{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 174px;
+}
+
+.x-tudo{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+
+.x-bacon{
+    color: white;
+    font-family:'Euphoria Script';
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 145px;
+}
+
+.x-salada{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+.x-egg{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size:50px;
+    font-weight: bold;
+    margin-left: 145px;
+}
+
+.x-frango{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.legenda-lanches{
+    display: flex;
+    margin-left: 174px;
+}
+
+.fundo-home2{
+    background-color: #FCF1F1;
+}
+
+.chapa{
+    border-radius: 110px;
+    width: 700px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 78px;
+}
+
+.coluna-1{
+    width: 800px;
+}
+
+.linha-1{
+    display: flex;
+}
+
+.titulo-home2{
+    font-family: 'Euphoria Script';
+    color: #A51919;
+    font-size: 144px;
+    width: 543px;
+    height: 168px;
+    margin-top: 36px;
+    margin-left: 100px;
+}
+
+.subtitulo-home2{
+    font-family: 'Euphoria Script';
+    color: black;
+    font-weight: bold;
+    font-size: 120px;
+    margin-left: 200px;
+}
+
+.texto-home{
+    font-family: 'Pt Sans Narrow';
+    color: black;
+    margin-left: 120px;
+    margin-right: 0px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 27px;
+    margin-bottom: 54px;
+}
+
+.rodape{
+    background-color: #181818;
+}
+
+.logo-rodape{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 60px;
+    padding-top: 15px;
+}
+
+.coluna-1rodape{
+    width: 800px;
+}
+
+.linha-1rodape{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.star-rodape{
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.rua{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.whats-rodape{
+    color: white;
+    font-family: 'Euphoria Script';
+    margin-left: 10px;
+    font-size: 25px
+}
+
+.icone-whatsapp{
+    width: 30px;
+}
+
+.coluna-2rodape{
+    text-align: center;
+    margin-right: 330px;
+}
+
+
+.cadastre-rodape{
+    color:white;
+    font-family: 'Euphoria Script';
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.nome-cadastre{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 30px;
+    margin-top: 45px;
+}
+input[type=text]{
+    height: 44px;
+    width: 500px;
+}
+
+input[type=email]{
+    height: 44px;
+    width: 500px;
+}
+
+.email-cadastre{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.js-focus-visible{
+    display: flex;
+}
+
+.atendimento{
+    color: white;
+    font-family:'Euphoria Script';
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.horario{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+
+
+.redes {
+
+    display: flex;
+    
+    
+
+}
+
+.instagram{
+
+    padding-top: 40px;
+    padding-right: 10px;
+
+
+} .facebook, .twitter, .youtube{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardapio2{
+
+    width: 1903px;
+}
+
+
+
+
