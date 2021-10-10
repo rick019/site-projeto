@@ -6,7 +6,6 @@
 
 
 .fundo-home{
-    background-image: url('../images/fundo-home.jpg');
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/fundo-home.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -308,7 +307,90 @@ input[type=email]{
     padding-right: 10px;
 }
 
+.fundo-sobre{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/restaurante.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+.fundo-2sobre{
+    background-color: #FCF1F1;
+}
+
+.coluna-quemsomos{
+    background-color: #FBEFEF;
+    border: 10px solid #701B1B;
+    border-radius: 28px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Euphoria Script';
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.titulo-sobre{
+    padding: 10px 0px 10px 0px;
+    font-size: 40px;
+    
+}
+
+.texto-sobre{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
 
 
 
+.coluna-missao{
+    background-color: #FBEFEF;
+    border: 10px solid #701B1B;
+    border-radius: 28px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Euphoria Script';
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
+.texto-missao{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.titulo-comentario{
+    text-align: center;
+}
+
+.linha-comentario1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linha-comentario2{
+    display: flex;
+    justify-content: space-around;
+}
+.caixa1{
+    background-color: red;
+}
