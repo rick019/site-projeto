@@ -313,6 +313,78 @@ input[type=email]{
     width: 1903px;
 }
 
+.fundo-contato{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/lanche.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
+.fundo-informacoes{
+    background-color: #701B1B;
+}
 
+.area-contato{
+    text-align: center;
+}
 
+.fale-conosco{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.subtitulo-contato{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 60px;
+}
+
+.linha-contato, .linha-contato2, .linha-contato3{
+    display: block;
+    padding-top: 10px
+}
+
+.espacamento{
+    margin-left: 20px;
+}
+
+.mensagem{
+    width: 690px;
+    height: 290px;
+}
+
+.enviar-mensagem{
+    color: black;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+}
+
+.localizacao{
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 550px;
+}
+
+.mapa{
+    height: 250px;
+    width: 350px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.localizacao-texto{
+    text-align: center;
+    padding-top: 125px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 30px;
+    font-weight: bold;
+}

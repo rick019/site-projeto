@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burguer's Lanches</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos-home.css">
+    <link rel="icon" href="images/icon-burguer.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="fundo-contato">
+        <header class="cabecalho">
+            <h1 class="logo-burguer">Burguer's Lanches</h1>
+            <nav>
+                <ul class="menu-navegacao">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="botao-reservar">Reserve uma Mesa</a>
+        </header>
+        <hr>
+        <div class="conteudo-1">
+            <h1 class="titulo-home">Contato</h1>
+        </div>
+        <hr>
+    </div>
+    <div class="fundo-informacoes">
+        <div class="area-contato">
+            <h1 class="fale-conosco">Fale Conosco</h1>
+            <h2 class="subtitulo-contato">Burguer's Lanches sempre perto de você!</h2>
+            <div class="linha-contato1">
+                <input type="text" id="name" placeholder="Nome">
+                <input class="espacamento" type="email" id="email" placeholder="E-Mail">
+            </div>
+            <div class="linha-contato2">
+                <input type="text" id="telefone" placeholder="Telefone">
+                <input class="espacamento" type="text" id="assunto" placeholder="Assunto">
+            </div>
+            <div class="linha-contato3">
+                <textarea class="mensagem" id="suamensagem" placeholder="Digite sua mensagem aqui"></textarea>
+                <button class="enviar-mensagem" type="button">Enviar</button>
+            </div>
+        </div>
+        <div class="localizacao">
+            <a href="https://www.google.com.br/maps/preview" target="blank"><img class="mapa" src="images/imagem-mapa.jpeg"></a>
+            <p class="localizacao-texto">Estamos localizados no endereço:<br>Rua Ficticio, 092, Santa-Maria<br>Americana
+                - SP</p>
+        </div>
+    </div>
+    <footer class="rodape">
+        <div class="linha-1rodape">
+            <div class="coluna-1rodape">
+                <h1 class="logo-rodape">Burguer's
+                    <br>
+                    Lanches
+                </h1>
+                <h2 class="star-rodape">⭐</h2>
+                <p class="rua">Rua Ficticio, 092, Santa Maria<br>
+                    Americana - SP</p>
+                <h2 class="star-rodape">⭐</h2>
+                <p class="whats-rodape">Whatsapp: (19) 1234-5678
+                    <i class="fa fa-whatsapp" style="font-size:20px;color:white;"></i>
+
+                </p>
+            </div>
+            <div class="coluna-2rodape">
+                <h2 class="cadastre-rodape">Cadastre seu E-mail para receber Novidades!</h2>
+                <form id="register-form">
+                    <p>
+                    <div class="nome-cadastre">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" placeholder="Digite o seu nome">
+                    </div>
+                    <div class="email-cadastre">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" placeholder="Digite o seu E-mail">
+                    </div>
+                    </p>
+                    <button class="botao-rodape" type="submit" onlick="EnviarCadastro();">Enviar</button>
+            </div>
+
+            </form>
+
+            <div coluna-3rodape>
+                <h1 class="atendimento">Horário de atendimento</h1>
+                <p class="horario">De terça à Domingo ( e feriados)
+                    das 07:00h PM às 00:00 PM.
+                    <br>
+                    Segunda-feira (Fechado)
+                </p>
+
+                <ul class="redes">
+                    <li class="instagram"><a href="#"><i class="fa fa-instagram"
+                                style="font-size:30px;color:white;"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"
+                                style="font-size:30px;color:white;"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"
+                                style="font-size:30px;color:white;"></i></a></li>
+                    <li class="youtube"><a href="#"><i class="fa fa-youtube"
+                                style="font-size:30px;color:white;"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
