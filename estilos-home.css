@@ -352,8 +352,8 @@ input[type=email]{
 }
 
 .mensagem{
-    width: 690px;
-    height: 290px;
+    width: 600px;
+    height: 120px;
 }
 
 .enviar-mensagem{
@@ -369,7 +369,7 @@ input[type=email]{
 .localizacao{
     display: flex;
     padding-bottom: 50px;
-    padding-left: 550px;
+    padding-left: 606px;
 }
 
 .mapa{
@@ -387,4 +387,8 @@ input[type=email]{
     font-family: 'Euphoria Script';
     font-size: 30px;
     font-weight: bold;
+}
+
+.cabecalho a{
+    text-decoration: none;
 }

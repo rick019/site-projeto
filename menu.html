@@ -7,56 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burguer's Lanches</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos-home.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="images/icon-burguer.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="fundo-contato">
+    <div class="fundo-home">
         <header class="cabecalho">
             <a href="home.html">
             <h1 class="logo-burguer">Burguer's Lanches</h1>
+            <a href="promocoes.html" class="botao-reservar2">Promoções</a>
+
             <nav>
                 <ul class="menu-navegacao">
                     <li><a href="home.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="contato.html">Contato</a></li>
+                    
                 </ul>
             </nav>
             <a href="#" class="botao-reservar">Reserve uma Mesa</a>
         </header>
         <hr>
-        <div class="conteudo-1">
-            <h1 class="titulo-home">Contato</h1>
+
+     
+        <div class="cardapio">
+           
+            <img class="cardapio2" src="/images/cardapio-final-2.jpg" alt="cardapio"> 
+            
+            
         </div>
-        <hr>
-    </div>
-    <div class="fundo-informacoes">
-        <div class="area-contato">
-            <h1 class="fale-conosco">Fale Conosco</h1>
-            <h2 class="subtitulo-contato">Burguer's Lanches sempre perto de você!</h2>
-            <div class="linha-contato1">
-                <input type="text" id="name" placeholder="Nome">
-                <input class="espacamento" type="email" id="email" placeholder="E-Mail">
-            </div>
-            <div class="linha-contato2">
-                <input type="text" id="telefone" placeholder="Telefone">
-                <input class="espacamento" type="text" id="assunto" placeholder="Assunto">
-            </div>
-            <div class="linha-contato3">
-                <textarea class="mensagem" id="suamensagem" placeholder="Digite sua mensagem aqui"></textarea>
-                <button class="enviar-mensagem" type="button">Enviar</button>
-            </div>
-        </div>
-        <div class="localizacao">
-            <!-- <a href="https://www.google.com.br/maps/preview" target="blank"><img class="mapa" src="images/imagem-mapa.jpeg"></a> -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9027639465244!2d-47.33579818442165!3d-22.731855237368606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bca837df6c5%3A0x44b9a1570ce44fa7!2sAv.%20Am%C3%A9rica%2C%20143%20-%20Jardim%20Bela%20Vista%2C%20Americana%20-%20SP%2C%2013471-240!5e0!3m2!1sen!2sbr!4v1634077383128!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <p class="localizacao-texto">Estamos localizados no endereço:<br>Rua Ficticio, 092, Santa-Maria<br>Americana
-                - SP</p>
-        </div>
-    </div>
+      
+   
+   
     <footer class="rodape">
         <div class="linha-1rodape">
             <div class="coluna-1rodape">
@@ -70,7 +55,7 @@
                 <h2 class="star-rodape">⭐</h2>
                 <p class="whats-rodape">Whatsapp: (19) 1234-5678
                     <i class="fa fa-whatsapp" style="font-size:20px;color:white;"></i>
-
+                    
                 </p>
             </div>
             <div class="coluna-2rodape">
@@ -83,7 +68,7 @@
                     </div>
                     <div class="email-cadastre">
                         <label for="email">E-mail:</label>
-                        <input type="email" id="email" placeholder="Digite o seu E-mail">
+                        <input type="email" id="email"placeholder="Digite o seu E-mail">
                     </div>
                     </p>
                     <button class="botao-rodape" type="submit" onlick="EnviarCadastro();">Enviar</button>
@@ -98,18 +83,14 @@
                     <br>
                     Segunda-feira (Fechado)
                 </p>
-
-                <ul class="redes">
-                    <li class="instagram"><a href="#"><i class="fa fa-instagram"
-                                style="font-size:30px;color:white;"></i></a></li>
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"
-                                style="font-size:30px;color:white;"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"
-                                style="font-size:30px;color:white;"></i></a></li>
-                    <li class="youtube"><a href="#"><i class="fa fa-youtube"
-                                style="font-size:30px;color:white;"></i></a></li>
-                </ul>
-
+               
+                  <ul class="redes">
+                      <li class="instagram"><a href="#"><i class="fa fa-instagram" style="font-size:30px;color:white;"></i></a></li> 
+                      <li class="facebook"><a href="#"><i class="fa fa-facebook" style="font-size:30px;color:white;"></i></a></li> 
+                      <li class="twitter"><a href="#"><i class="fa fa-twitter" style="font-size:30px;color:white;"></i></a></li> 
+                      <li class="youtube"><a href="#"><i class="fa fa-youtube" style="font-size:30px;color:white;"></i></a></li> 
+                  </ul>
+                
             </div>
         </div>
     </footer>
