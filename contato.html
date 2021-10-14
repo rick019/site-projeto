@@ -15,7 +15,6 @@
 <body>
     <div class="fundo-contato">
         <header class="cabecalho">
-            <a href="home.html">
             <h1 class="logo-burguer">Burguer's Lanches</h1>
             <nav>
                 <ul class="menu-navegacao">
@@ -51,8 +50,8 @@
             </div>
         </div>
         <div class="localizacao">
-            <!-- <a href="https://www.google.com.br/maps/preview" target="blank"><img class="mapa" src="images/imagem-mapa.jpeg"></a> -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9027639465244!2d-47.33579818442165!3d-22.731855237368606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bca837df6c5%3A0x44b9a1570ce44fa7!2sAv.%20Am%C3%A9rica%2C%20143%20-%20Jardim%20Bela%20Vista%2C%20Americana%20-%20SP%2C%2013471-240!5e0!3m2!1sen!2sbr!4v1634077383128!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <a href="https://www.google.com.br/maps/preview" target="blank"><img class="mapa"
+                    src="images/imagem-mapa.jpeg"></a>
             <p class="localizacao-texto">Estamos localizados no endereço:<br>Rua Ficticio, 092, Santa-Maria<br>Americana
                 - SP</p>
         </div>
@@ -86,7 +85,9 @@
                         <input type="email" id="email" placeholder="Digite o seu E-mail">
                     </div>
                     </p>
-                    <button class="botao-rodape" type="submit" onlick="EnviarCadastro();">Enviar</button>
+                    <button onclick="Cadastro()" class="botao-rodape" type="submit">Enviar</button>
+
+                    <div class="resposta-cadastro" id="resposta"></div>
             </div>
 
             </form>
@@ -113,6 +114,7 @@
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -392,3 +392,12 @@ input[type=email]{
 .cabecalho a{
     text-decoration: none;
 }
+
+.resposta-cadastro{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 30px;
+    margin-top: 20px;
+    background-color:#701B1B;
+    border-radius: 5px;
+}
