@@ -401,3 +401,84 @@ input[type=email]{
     background-color:#701B1B;
     border-radius: 5px;
 }
+
+#reserve{
+
+    color: white;
+    background-color: #701B1B;
+    font-family: 'PT Sans Narrow';
+    position: absolute;
+    right: 100px;
+    top: 80px;
+    height: 270px;
+    width: 370px;
+    display: none;
+
+
+}
+
+.linha1{
+    
+    display: flex;
+    
+}
+
+.logo-reserve{
+    font-size: 30px;
+    color:white;
+    font-family: 'Euphoria Script';
+    margin-right:100px;
+    margin-top: 10px;
+    padding-left: 20px;
+    
+}
+
+
+.botao-reserve{
+
+    margin-top: 10px;
+    padding-right: 10px;
+
+
+}
+
+.linha2{
+
+    padding-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+.linha3{
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+
+}
+
+.coluna-reserve1, .coluna-reserve2, .coluna-reserve3, .coluna-reserve4{
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+
+}
+
+.botao-reserve2{
+
+    padding-top: 35px;
+    padding-left: 30px;
+
+}
+
+#resposta2{
+
+    position: absolute;
+    
+    left: 180px;
+    top: 70px;
+}
+
