@@ -400,6 +400,19 @@ input[type=email]{
     margin-top: 20px;
     background-color:#701B1B;
     border-radius: 5px;
+    
+}
+
+.resposta-contato{
+    color: white;
+    font-family: 'Euphoria Script';
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    position: absolute;
+    right: 370px;
 }
 
 #reserve{

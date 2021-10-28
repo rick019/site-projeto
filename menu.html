@@ -28,7 +28,69 @@
                     
                 </ul>
             </nav>
-            <a href="#" class="botao-reservar">Reserve uma Mesa</a>
+            <a href="#" onclick="MostrarReserva()" class="botao-reservar">Reserve uma Mesa</a>
+
+
+            <span id="reserve">
+
+                <div class="linha1">
+                    <div class="logo-reserve">Burguer's <br> Lanches</div>
+                    <div class="botao-reserve2">
+                        <button onclick="EnviarReserva()">ENVIAR</button>
+                    </div>
+                    <div class="resposta-reserva" id="resposta2"></div>
+
+                </div> 
+
+                <div class="linha2">Selecione um Horário Disponível:</div>
+
+
+            
+                <form class="linha3">
+
+                    <div class="coluna-reserve1">
+
+                        <input type="radio" name="horario" value="18h">18:00h
+                        <input type="radio" name="horario" value="18h">20:00h
+                        <input type="radio" name="horario" value="18h">22:00h
+                        
+
+                    </div>
+
+                    <div class="coluna-reserve2">
+
+                        <input type="radio" name="horario" value="18h">18:30h
+                        <input type="radio" name="horario" value="18h">20:30h
+                        <input type="radio" name="horario" value="18h">22:30h
+                        
+
+                    </div>
+
+                    <div class="coluna-reserve3">
+
+                        <input type="radio" name="horario" value="18h">19:00h
+                        <input type="radio" name="horario" value="18h">21:00h
+                        <input type="radio" name="horario" value="18h">23:00h
+                        
+
+                    </div>
+
+                    <div class="coluna-reserve4">
+
+                        <input type="radio" name="horario" value="18h">19:30h
+                        <input type="radio" name="horario" value="18h">21:30h
+                        <input type="radio" name="horario" value="18h">23:30h
+                        
+
+                    </div>
+
+                
+
+
+                </form>
+
+            </span>
+
         </header>
         <hr>
 
@@ -71,7 +133,7 @@
                         <input type="email" id="email"placeholder="Digite o seu E-mail">
                     </div>
                     </p>
-                    <button onclick="Cadastro()" class="botao-rodape" type="submit">Enviar</button>
+                    <button onclick="Cadastro()" class="botao-rodape" type="button">Enviar</button>
 
                     <div class="resposta-cadastro" id="resposta"></div>
             </div>
